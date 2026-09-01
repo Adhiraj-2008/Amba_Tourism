@@ -1,0 +1,153 @@
+body{
+    font-family: 'Segoe UI', sans-serif;
+    margin:0;
+    padding:0;
+}
+
+.top-news{
+    background:#198754;
+    color:white;
+    padding:8px;
+    overflow:hidden;
+    white-space:nowrap;
+}
+
+.top-news marquee{
+    font-weight:bold;
+}
+
+.navbar-brand{
+    font-size:28px;
+    font-weight:bold;
+}
+
+.carousel-item img{
+    height:600px;
+    object-fit:cover;
+}
+
+.section-title{
+    text-align:center;
+    margin:40px 0;
+    color:#198754;
+    font-weight:bold;
+}
+
+.card{
+    transition:0.4s;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+    box-shadow:0px 5px 20px gray;
+}
+
+footer{
+    background:#212529;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:30px;
+}
+
+.hero-text{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    color:white;
+    text-align:center;
+}
+
+.hero-text h1{
+    font-size:60px;
+    font-weight:bold;
+}
+
+@media(max-width:768px){
+    .carousel-item img{
+        height:300px;
+    }
+
+    .hero-text h1{
+        font-size:35px;
+    }
+}
+
+.card{
+    border:none;
+    border-radius:15px;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+    transition:0.4s;
+}
+
+footer a:hover{
+    color:#28a745 !important;
+}
+
+/* Banner Images */
+.banner-img{
+    height:500px;
+    object-fit:cover;
+}
+
+/* Card Images */
+.card-img-top{
+    height:250px;
+    object-fit:cover;
+}
+
+/* Smooth Hover Effect */
+img{
+    transition:0.5s;
+}
+
+img:hover{
+    transform:scale(1.03);
+}
+
+/* Section Titles */
+.section-title{
+    font-size:40px;
+    font-weight:bold;
+    text-align:center;
+    color:#198754;
+    margin-bottom:30px;
+}
+
+/* Cards */
+.card{
+    border:none;
+    border-radius:15px;
+    transition:0.4s;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+    box-shadow:0px 5px 20px gray;
+}
+
+/* Footer Links */
+footer a:hover{
+    color:#28a745 !important;
+}
+
+/* Footer */
+footer{
+    margin-top:50px;
+}
+
+/* Responsive */
+@media(max-width:768px){
+
+    .section-title{
+        font-size:28px;
+    }
+
+    .card-img-top{
+        height:200px;
+    }
+}
